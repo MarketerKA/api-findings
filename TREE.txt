@@ -1,0 +1,77 @@
+Soldit-api Project Structure
+=============================
+
+Soldit-api/
+│
+├── 📂 src/                          Source code
+│   ├── __init__.py                  Package initialization
+│   └── solodit_client.py           Main API client
+│
+├── 📂 scripts/                      Ready-to-use scripts
+│   ├── quick_test.py               Quick connection test
+│   ├── search_keyword.py           Search by keyword
+│   ├── interactive_search.py       Interactive search
+│   ├── show_finding_format.py      Show finding format
+│   └── simple_finding_example.py   Simple example
+│
+├── 📂 examples/                     Usage examples
+│   ├── basic_usage.py              Basic examples
+│   └── advanced_usage.py           Advanced examples
+│
+├── 📂 docs/                         Documentation
+│   ├── SETUP.md                    Installation and setup
+│   ├── USAGE.md                    Usage guide
+│   ├── FINDING_FORMAT.md           Finding format guide
+│   ├── API_SPECIFICATION.md        Full API specification
+│   └── PROJECT_STRUCTURE.md        Project structure
+│
+├── 📂 venv/                         Python virtual environment
+│
+├── 📄 .env                          API key
+├── 📄 .gitignore                    Ignored files
+├── 📄 requirements.txt              Python dependencies
+├── 📄 README.md                     Main documentation
+├── 📄 START_HERE.md                 Quick start
+├── 📄 QUICKSTART.md                 All commands
+├── 📄 INDEX.md                      Navigation
+├── 📄 FILES_OVERVIEW.md             Files overview
+├── 📄 PROJECT_SUMMARY.md            Project summary
+└── 📄 TREE.txt                      This file
+
+
+Total project files:
+=====================
+- Python files:     9
+- Markdown files:   12
+- Config files:     3
+- Documentation:    12
+
+
+Commands for work:
+===================
+
+1. Activate venv:
+   Linux/Mac:  source venv/bin/activate
+   Windows:    venv\Scripts\activate
+
+2. Quick test:
+   python scripts/quick_test.py
+
+3. Search:
+   python scripts/search_keyword.py Governor
+   python scripts/interactive_search.py
+
+4. Examples:
+   python examples/basic_usage.py
+   python examples/advanced_usage.py
+
+5. Deactivate:
+   deactivate
+
+
+Start with:
+==========
+1. Read START_HERE.md
+2. Activate venv
+3. Run python scripts/quick_test.py
+4. Try python scripts/search_keyword.py Governor
